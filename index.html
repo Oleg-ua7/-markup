@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="top-item">
+            <li>
+              <a class="top-link" href="#">75th Anniversary Year</a>
+            </li>
+            <li>
+              <a class="top-link" href="#">Contact</a>
+            </li>
+            <li>
+              <a class="top-link" href="#">Renew</a>
+            </li>
+            <li>
+              <a class="top-link" href="#">Join</a>
+            </li>
+            <li>
+              <a class="top-link" href="#">Subscribe for Email Updates</a>
+            </li>
+            <li>
+              <a class="facebook" href="#"> </a>
+            </li>
+            <li>
+              <a class="twitter" href="#">
+                <i class="fa fa-twitter-square" style="font-size: 16px"></i>
+              </a>
+            </li>
+            <li>
+              <a class="linkedin" href="#">
+                <i class="fa fa-linkedin-square" style="font-size: 16px"></i>
+              </a>
+            </li>
+            <li>
+              <a class="search" href="#" >
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="col-group">
+          <a class="logo" href="#"> <img src="./img/ACAD.png" alt="acad" /></a>
+          <div class="right-group">
+            <ul class="sub-col">
+              <li class="sub-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="sub-item">
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">About</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#">75th Anniversary Year</a>
+                    <a href="#">Who We Are</a>
+                    <a href="#">Mission, Vision, Values</a>
+                    <a href="#">Board & Staff</a>
+                    <a href="#">History</a>
+                    <a href="#">Annual Award</a>
+                    <a href="#">ACAD Fellows Program</a>
+                    <a href="#">Contact</a>
+                  </div>
+                </div>
+              </li>
+              <li class="sub-item">
+                <div class="dropdown">
+                  <button onclick="memberShip()" class="dropbtn">
+                    Membership
+                  </button>
+                  <div id="myDropdownShip" class="dropdown-content">
+                    <a href="#">Member Benefits</a>
+                    <a href="#">Join ACAD</a>
+                    <a href="#">Get Involved</a>
+                    <a href="#">Peer Conferencing Program</a>
+                  </div>
+                </div>
+              </li>
+              <li class="sub-item">
+                <div class="dropdown">
+                  <button onclick="meetings()" class="dropbtn">
+                    Meetings & Events
+                  </button>
+                  <div id="myDropdownMeetings" class="dropdown-content">
+                    <a href="#">Annual Meeting</a>
+                    <a href="#">Conferences</a>
+                    <a href="#">Deans'Institute</a>
+                  </div>
+                </div>
+              </li>
+              <li class="sub-item">
+                <div class="dropdown">
+                  <button onclick="resources()" class="dropbtn">
+                    Resources
+                  </button>
+                  <div id="myDropdownResources" class="dropdown-content">
+                    <a href="#">ACAD Reading List</a>
+                    <a href="#">Explore Resources</a>
+                    <a href="#">The Resource Handbook for Academic Deans</a>
+                    <a href="#">The ACAD Leader</a>
+                    <a href="#">Partners</a>
+                  </div>
+                </div>
+              </li>
+              <li class="sub-item">
+                <a href="#">Career Center</a>
+                <i class="fa fa-external-link" style="font-size: 16px"></i>
+              </li>
+            </ul>
+          </div>
+          <!-- <div>outside</div>
+          <ul class="menu-item-list desktop-menu">
+            <li>
+              <a href="#" class="menu-link drop-down">Билеты</a>
+              <div class="dropdown-list">
+                <div class="menu-items">
+                  <a href="#">Спецпредложения</a>
+                  <a href="#">Популярные рейсы</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="menu-link drop-down">Информация</a>
+              <div class="dropdown-list">
+                <div class="menu-items">
+                  <a href="#">Авиакомпании</a>
+                  <a href="#">Аэропорты</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="menu-link drop-down">Компания</a>
+              <div class="dropdown-list">
+                <div class="menu-items">
+                  <a href="#">О нас</a>
+                  <a href="#">Поддержка</a>
+                  <a href="#">Контакты</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="menu-link profile-link">Личный кабинет</a>
+            </li>
+          </ul>
+          <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        </div> -->
+      </div>
+    </header>
+    <script src="./index.js"></script>
+    <script src="./dropMenu.js"></script>
+  </body>
+</html>

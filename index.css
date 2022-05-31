@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  /* font-family: Open Sans; */
+  overflow-x: hidden;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+.container {
+  max-width: 960px;
+  min-height: 900px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+body {
+  background-color: #edf3f9;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.facebook::before {
+  content: "";
+  position: relative;
+  float: left;
+  margin: 2px 5px 0 0;
+  width: 16px;
+  height: 16px;
+  background: url(./img/facebook.png);
+}
+
+/* .logo::after {
+  content: "";
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 91px;
+  background: url(./img/ACAD.png);
+} */
+
+.top-item {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #44667c;
+  margin: 0;
+}
+.top-item li {
+  padding: 4px 12px;
+}
+.top-item li:hover {
+  background-color: rgb(201, 117, 7);
+}
+
+.top-link {
+  color: #fff;
+  font-size: 11px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.col-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 35px 4px;
+}
+
+.right-group {
+  margin-top: 25px;
+}
+
+.sub-item {
+  padding-right: 6px;
+}
+
+.sub-item a {
+  color: black;
+  font-weight: bold;
+}
+
+.sub-col {
+  display: flex;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  color: black;
+  /* padding: 16px; */
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn::before {
+  content: "";
+  position: relative;
+  float: right;
+  margin: 6px 0px 0px 2px;
+  width: 13px;
+  height: 14px;
+  background: url(./img/down-arrow.svg);
+}
+
+/* Dropdown button on hover & focus */
+/* .dropbtn:hover,
+.dropbtn:focus {
+  background-color: #44667c;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f1f1f1; */
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #44667c;
+  padding: 12px 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Merriweather Sans", sans-serif;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: rgb(201, 117, 7);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
